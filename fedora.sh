@@ -1,4 +1,11 @@
-sudo dnf install NetworkManager-config-connectivity-fedora bluedevil breeze-gtk breeze-icon-theme cagibi colord-kde dolphin glibc-all-langpacks gnome-keyring-pam kde-gtk-config kde-style-breeze kdegraphics-thumbnailers kdeplasma-addons kdialog kdnssd kf5-akonadi-server kf5-akonadi-server-mysql kf5-baloo-file kf5-kipi-plugins khotkeys kmenuedit konsole5 kscreen kscreenlocker ksysguard kwalletmanager5 kwebkitpart kwin pam-kwallet phonon-qt5-backend-gstreamer pinentry-qt plasma-breeze plasma-desktop plasma-desktop-doc plasma-drkonqi plasma-nm plasma-pa plasma-user-manager plasma-workspace plasma-workspace-geolocation polkit-kde qt5-qtbase-gui qt5-qtdeclarative sddm sddm-breeze sddm-kcm sni-qt xorg-x11-drv-libinput @"Hardware Support" @base-x
+sudo dnf install plasma-desktop sddm xorg-x11-server-Xorg dolphin konsole plasma-nm plasma-pa kde-gtk-config plasma-discover flatpak plasma-nm plasma-pa kde-gtk-config
+bluez bluedevil sddm-kcm htop fastfetch vlc qtile -y
+
+sudo dnf copr enable pgdev/ghostty -y
+sudo dnf install ghostty -y
+
+
+
 sudo systemctl enable sddm
 sudo systemctl set-default graphical.target
-
+sudo systemctl enable bluetooth
