@@ -1,4 +1,4 @@
-sudo dnf install plasma-desktop sddm xorg-x11-server-Xorg dolphin konsole plasma-nm plasma-pa kde-gtk-config plasma-discover flatpak plasma-nm plasma-pa kde-gtk-config bluez bluedevil sddm-kcm htop fastfetch vlc qtile -y
+sudo dnf install plasma-desktop sddm xorg-x11-server-Xorg dolphin konsole plasma-nm plasma-pa kde-gtk-config plasma-discover flatpak plasma-nm okular ark plasma-pa kde-gtk-config bluez bluedevil sddm-kcm htop fastfetch vlc qtile -y
 
 sudo dnf copr enable pgdev/ghostty -y
 sudo dnf install ghostty -y
